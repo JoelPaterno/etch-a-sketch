@@ -1,0 +1,19 @@
+:root {
+    font-family: "Inter", "sans-serif";
+    height: 100vh;
+}
+
+/* * {
+    border: 2px solid red;
+} */
+
+.container {
+    max-width: 60vw;
+    margin: auto;
+    height: 60vh;
+    margin-top: 3rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
