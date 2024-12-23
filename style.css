@@ -7,13 +7,19 @@
     border: 2px solid red;
 } */
 
+/* .wrapper {
+    border: 2px solid black;
+} */
+
 .container {
     max-width: 60vw;
     margin: auto;
     height: 60vh;
     margin-top: 3rem;
-    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
 }
 
+.pixel-color {
+    background-color: black;
+}

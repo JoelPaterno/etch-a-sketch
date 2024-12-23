@@ -11,7 +11,6 @@ function createGrid(res) {
             let pixel = document.createElement("div");
             pixel.classList.add("pixel");
             pixel.style.cssText = `flex-basis: ${flexBasis}%;`;
-            pixel.textContent = count;
             container.appendChild(pixel);
             count++;
         } 
@@ -19,3 +18,11 @@ function createGrid(res) {
 }
 
 createGrid(resolution);
+
+let pixels = document.querySelectorAll(".pixel");
+
+pixels.forEach((pixel) => {
+    pixel.addEventListener("mouseover", () => {
+        pixel.classList.add('pixel-color');
+    });
+});
