@@ -1,15 +1,13 @@
 :root {
     font-family: "Inter", "sans-serif";
     height: 100vh;
+    box-sizing: border-box;
 }
 
-/* * {
-    border: 2px solid red;
-} */
-
-/* .wrapper {
-    border: 2px solid black;
-} */
+body {
+    text-align: center;
+    padding: 50px;
+}
 
 .container {
     max-width: 60vw;
@@ -18,8 +16,10 @@
     margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
+    border: 2px solid black;
 }
 
 .pixel-color {
     background-color: black;
 }
+

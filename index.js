@@ -11,6 +11,7 @@ function createGrid(res) {
             container.appendChild(pixel);
         } 
     }
+    addPixelEventListenrs();
 }
 
 createGrid(resolution);
