@@ -23,3 +23,19 @@ body {
     background-color: black;
 }
 
+.resolution {
+    border: none;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(26, 111, 223);
+    font-size: 16px;
+    border-radius: 1rem;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+.resolution:hover {
+    background-color: rgb(92, 147, 219);
+    color: rgb(32, 33, 34);
+    transform: scale(1.1);
+}
